@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo: Calculator and List Management</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: auto;
+        }
+
+        input[type="number"] {
+            padding: 10px;
+            font-size: 16px;
+            width: 50px;
+        }
+
+        button {
+            padding: 10px;
+            font-size: 16px;
+            margin: 10px;
+        }
+
+        .list {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .list li {
+            margin: 5px 0;
+        }
+
+        .undo-redo {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Calculator & List Manager</h1>
+
+        <!-- Calculator Section -->
+        <div class="calculator">
+            <h2>Calculator</h2>
+            <p>Current Value: <span id="currentValue">1</span></p>
+            <input type="number" id="inputValue" value="1">
+            <br>
+            <button id="addBtn">Add</button>
+            <button id="subtractBtn">Subtract</button>
+            <button id="multiplyBtn">Multiply</button>
+            <button id="divideBtn">Divide</button>
+        </div>
+
+        <!-- List Management Section -->
+        <div class="list-manager">
+            <h2>List Manager</h2>
+            <input type="text" id="listItemInput" placeholder="Enter list item">
+            <button id="addItemBtn">Add Item</button>
+            <ul id="itemList" class="list"></ul>
+        </div>
+
+        <!-- Random Background Color Section -->
+        <div class="random-bg">
+            <h2>Random Background Color</h2>
+            <button id="changeBgBtn">Change Background Color</button>
+        </div>
+
+        <!-- Undo/Redo Section -->
+        <div class="undo-redo">
+            <button id="groupBtn">Start Group</button>
+            <button id="undoBtn">Undo</button>
+            <button id="redoBtn">Redo</button>
+        </div>
+    </div>
+
+    <script type="module" src="main.js"></script>
+
+</body>
+
+</html>
