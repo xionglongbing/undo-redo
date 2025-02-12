@@ -1,12 +1,12 @@
 {
-  "name": "undo-redo",
-  "version": "1.0.0",
+  "name": "undo-action",
+  "version": "1.0.1",
   "description": "A undo/redo state management utility",
   "main": "lib/undomanager.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["undo", "redo", "reducer", "撤销", "重做"],
+  "keywords": ["undo", "redo", "reducer", "undo-action", "撤销", "重做"],
   "author": "longbing.xiong",
   "license": "MIT",
   "repository": {
