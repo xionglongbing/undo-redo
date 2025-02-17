@@ -3,7 +3,7 @@ import reducer from "../lib/index.js"
 const currentValueElem = document.getElementById("currentValue");
 const inputValueElem = document.getElementById("inputValue");
 // 初始化值
-let currentValue = 1;
+let currentValue = 18;
 
 // 更新显示的当前值
 function updateCurrentValue(value) {
